@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content">
+<title>luly generator</title>
+<meta name="description" content="Escolha uma frase, complete do seu jeito e baixe pro feed ou pros stories.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://lulygenerator.love/">
+<link rel="canonical" href="https://lulygenerator.love/">
+<meta property="og:title" content="luly generator">
+<meta property="og:description" content="Escolha uma frase, complete do seu jeito e baixe pro feed ou pros stories.">
+<meta name="theme-color" content="#ffffff">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800&family=Archivo+Narrow:wght@700&family=Instrument+Serif:ital@0;1&family=Pinyon+Script&display=swap">
+<link rel="stylesheet" href="estilo.css?v=1791918644">
+</head>
+<body data-estilo="1" data-formato="feed">
+
+<header class="topo">
+  <div class="estilos" id="estilos" role="radiogroup" aria-label="estilo do post"></div>
+</header>
+
+<main class="palco" id="palco">
+  <canvas class="arte" id="arte" role="img" width="1080" height="1350"></canvas>
+</main>
+
+<footer class="controles">
+  <form class="frase" id="frase" autocomplete="off">
+    <span class="antes" id="antes"></span>
+    <label class="lacuna">
+      <span class="so-leitor">complete a frase</span>
+      <input id="lacuna" type="text" enterkeyhint="done" spellcheck="false">
+    </label>
+    <span class="depois" id="depois"></span>
+  </form>
+  <div class="acoes">
+    <div class="formatos" role="group" aria-label="formato">
+      <button type="button" data-formato="feed" aria-pressed="true">feed</button>
+      <button type="button" data-formato="stories" aria-pressed="false">stories</button>
+    </div>
+    <button class="vazado" id="vazado" type="button" aria-pressed="false">sem fundo</button>
+    <button class="baixar" id="baixar" type="button">baixar</button>
+  </div>
+  <p class="credito">feito com muito amor y psicose democrática - por <a href="https://www.instagram.com/fefevillaca/" target="_blank" rel="noopener">@fefevillaca</a>.</p>
+</footer>
+
+<script data-goatcounter="https://lulygenerator.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+<script src="gerador.js?v=1791918644"></script>
+</body>
+</html>
